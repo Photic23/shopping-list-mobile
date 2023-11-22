@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Place this script in project/android/app/
 
-#!/usr/bin/env bash
-
 cd ..
 
 # fail if any command fails
@@ -18,7 +16,7 @@ flutter channel stable
 flutter doctor
 
 
-echo "Installed flutter to `pwd`/flutter"
+echo "Installed flutter to `pwd`/flutter"q
 
 # export keystore for release
 echo "$KEY_JKS" | base64 --decode > release-keystore.jks

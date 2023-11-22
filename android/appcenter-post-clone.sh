@@ -3,8 +3,6 @@
 
 #!/usr/bin/env bash
 
-
-
 cd ..
 
 # fail if any command fails
@@ -18,8 +16,7 @@ export PATH=`pwd`/flutter/bin:$PATH
 
 flutter channel stable
 flutter doctor
-# Example: Install App Center CLI
-npm install -g appcenter-cli
+
 
 echo "Installed flutter to `pwd`/flutter"
 
